@@ -9,7 +9,7 @@ import plotly.graph_objects as go
 
 # ── Page Configuration ────────────────────────
 st.set_page_config(
-    page_title="EduPro Learner Analytics Dashboard",
+    page_title="Learner Demographics and Course Enrollment Behavior Analysis on EduPro",
     page_icon="🎓",
     layout="wide"
 )
@@ -74,7 +74,7 @@ st.markdown("---")
 # =============================================
 # MODULE 1 — KPI Summary Cards
 # =============================================
-st.header("📊 Key Performance Indicators")
+st.header("📊 Platform Overview")
 
 total      = len(filtered)
 unique_u   = filtered['UserID'].nunique()
