@@ -9,7 +9,7 @@ import plotly.graph_objects as go
 
 # ── Page Configuration ────────────────────────
 st.set_page_config(
-    page_title="Learner Demographics and Course Enrollment Behavior Analysis on EduPro",
+    page_title="EdTech Enrollment & Engagement Analytics Dashboard",
     page_icon="🎓",
     layout="wide"
 )
@@ -67,7 +67,7 @@ filtered = master[
 ]
 
 # ── Title ─────────────────────────────────────
-st.title("🎓 Learner Demographics & Course Enrollment Analytics")
+st.title("🎓 EdTech Enrollment & Engagement Analytics")
 st.markdown("Behavioral and demographic insights for the EduPro online learning platform")
 st.markdown("---")
 
