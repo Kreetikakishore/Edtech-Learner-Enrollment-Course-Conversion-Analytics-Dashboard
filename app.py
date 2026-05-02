@@ -25,7 +25,7 @@ master, users = load_data()
 
 # ── Sidebar ───────────────────────────────────
 st.sidebar.image("https://img.icons8.com/color/96/graduation-cap.png", width=80)
-st.sidebar.title("🎓 EduPro Analytics")
+st.sidebar.title("🎓 EdTech Analytics")
 st.sidebar.markdown("---")
 st.sidebar.header("Filters")
 
@@ -55,8 +55,8 @@ selected_level = st.sidebar.multiselect(
 )
 
 st.sidebar.markdown("---")
-st.sidebar.markdown("**Toronto Government**")
-st.sidebar.markdown("Parks, Forestry & Recreation")
+st.sidebar.markdown("**EdTech Analytics Project**")
+st.sidebar.markdown("Enrollment & Engagement Study")
 
 # ── Apply Filters ─────────────────────────────
 filtered = master[
